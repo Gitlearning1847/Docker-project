@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<div style="text-align:center;">
+    <img src="{{ url_for('static', filename='Atlanta.jpg') }}" style="width:100%; height:auto;" alt="banner">
+    <h1>Welcome to Atlanta!</h1>
+</div>
+{% endblock %}
